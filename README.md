@@ -1,29 +1,30 @@
 Control Systems Project - Linear Control and Frequency Domain Analysis
-این پروژه و تحقیق ها  شامل فایل‌ها و تحلیل‌هایی در زمینه کنترل خطی و تحلیل سیستم‌ها در حوزه فرکانس است. در اینجا مباحث مختلفی از جمله تحلیل مکان هندسی ریشه‌ها در سیستم‌های دارای تأخیر، روش راث هورویتز، و بررسی ویژگی‌های نمایش سیستم‌ها در حوزه فرکانس مورد بررسی قرار گرفته است. همچنین، پروژه شامل شبیه‌سازی‌هایی با MATLAB و نمودارهای بودی، ورودی پله و طراحی‌های مختلف است.
-موضوعات مورد بحث:
-1. مکان هندسی ریشه‌ها در سیستم‌های دارای تأخیر
-در این بخش، به تحلیل مکان هندسی ریشه‌ها در سیستم‌هایی پرداخته‌ایم که دارای تأخیر زمانی هستند. تأخیر در سیستم‌های کنترل می‌تواند تاثیرات زیادی بر پایداری سیستم و پاسخ دینامیکی آن بگذارد. در این تحلیل از روش Root Locus استفاده شده است تا بتوانیم تغییرات موقعیت ریشه‌ها را با تغییر پارامترهای سیستم و تأخیر مشاهده کنیم. این بخش شامل توضیحاتی در مورد اصول روش Root Locus و چالش‌های موجود در سیستم‌های دارای تأخیر است.
-2. روش راث هورویتز و مشتق‌گیری در صورت صفر شدن یک سطر
-در روش راث هورویتز، وقتی که یک سطر کامل از ماتریس صفر می‌شود، برای ادامه محاسبات باید مشتق‌گیری صورت بگیرد. این عمل به دلیل جلوگیری از تقسیم بر صفر و تضمین‌کردن پایداری و دقت محاسبات انجام می‌شود. این بخش به صورت مفصل توضیح می‌دهد که چرا این مشتق‌گیری لازم است و چگونه باعث افزایش دقت در حل معادلات راث هورویتز می‌شود.
-3. بررسی ویژگی‌های نمایش سیستم‌ها در حوزه فرکانس
-در این بخش، نحوه تحلیل سیستم‌ها در حوزه فرکانس مورد بررسی قرار می‌گیرد. نمایش سیستم‌ها در این حوزه نسبت به تحلیل در حوزه زمان مزایای زیادی دارد، از جمله امکان تحلیل رفتار سیستم در پاسخ به ورودی‌های مختلف (مثلاً ورودی پله، سیگنال‌های سینوسی). این بخش شامل بررسی ابزارهای مهم در حوزه فرکانس مانند نمودار بودی و تفاوت‌های کلیدی بین نمایش‌های فوریه و لاپلاس است. همچنین، برخی از ویژگی‌های هر کدام و مزایا و معایب آن‌ها به صورت شهودی بیان می‌شود.
-4. پروژه‌های شبیه‌سازی در MATLAB
-در این بخش، پروژه‌های مختلفی که شامل شبیه‌سازی و تحلیل سیستم‌های کنترلی در MATLAB هستند، مورد بحث قرار می‌گیرند. پروژه شامل رسم نمودارهای بودی، تحلیل پاسخ ورودی پله و طراحی‌های مختلف برای سیستم‌های کنترلی است. این شبیه‌سازی‌ها و نمودارها به ما کمک می‌کنند تا نحوه تأثیر طراحی‌های مختلف کنترل‌کننده بر عملکرد سیستم را مشاهده کنیم.
-محتویات researches :
-مکان هندسی ریشه‌ها در سیستم‌های دارای تأخیر
-روش راث هورویتز و مشتق‌گیری در صورت صفر شدن یک سطر
-ویژگی‌های نمایش سیستم‌ها در حوزه فرکانس
-
-نحوه استفاده از پروژه:
-فایل‌های مربوط به MATLAB را در پوشه matlab_files پیدا کنید.
-نحوه اجرا:
-نرم‌افزار MATLAB را نصب کرده و فایل‌ها را در محیط MATLAB باز کنید.
-برای اجرای شبیه‌سازی‌ها و مشاهده نتایج، کدهای MATLAB را به ترتیب اجرا کنید.
-کد مربوط به هر سوال پروژه مشخص می باشد.
-نکات کلیدی:
-تأخیر زمانی می‌تواند به طور جدی بر پایداری و عملکرد سیستم‌های کنترل تأثیر بگذارد.
-در روش راث هورویتز، مشتق‌گیری در صورت صفر شدن سطرها برای اطمینان از دقت محاسبات الزامی است.
-نمایش سیستم‌ها در حوزه فرکانس برای تحلیل رفتار سیستم‌ها در برابر ورودی‌های پیچیده‌تر بسیار مفید است.
-پروژه‌های MATLAB به شبیه‌سازی و تحلیل سیستم‌ها در محیط‌های کنترلی کمک می‌کنند.
-توسعه‌ها و پیشنهادات:
-در آینده، می‌توان این پروژه را با اضافه کردن تحلیل‌های بیشتر در مورد سیستم‌های پیچیده و طراحی کنترل‌کننده‌های پیشرفته گسترش داد. همچنین، می‌توان شبیه‌سازی‌ها را برای سیستم‌های دارای نویز و عدم قطعیت در مدل گسترش داد.
+This project and research involve files and analyses related to linear control and system analysis in the frequency domain. Various topics such as root locus analysis in time-delay systems, the Routh-Hurwitz method, and the study of system representations in the frequency domain are discussed. The project also includes MATLAB simulations, Bode plots, step response analyses, various controller designs, and assignments for practice.
+Topics Discussed:
+Root Locus in Time-Delay Systems
+This section focuses on the root locus analysis in systems with time delay. Delay in control systems can significantly affect system stability and dynamic response. The Root Locus method is used to observe how the positions of the poles change with varying system parameters and delays. This section includes explanations of the Root Locus method’s principles and the challenges encountered in time-delay systems.
+Routh-Hurwitz Method and Derivation when a Row Becomes Zero
+In the Routh-Hurwitz method, when a complete row of the matrix becomes zero, derivation is required to continue the calculations. This step is necessary to avoid division by zero and ensure the stability and accuracy of the calculations. This section provides a detailed explanation of why this derivation is necessary and how it enhances the accuracy of the Routh-Hurwitz equations.
+Study of System Characteristics in the Frequency Domain
+This section examines how systems are analyzed in the frequency domain. Representing systems in the frequency domain offers several advantages over time-domain analysis, such as the ability to analyze system behavior in response to various inputs (e.g., step inputs, sinusoidal signals). This section discusses key tools in the frequency domain, such as Bode plots, and the fundamental differences between Fourier and Laplace representations. The characteristics, advantages, and disadvantages of each method are explained intuitively.
+MATLAB Simulation Projects
+This section covers various projects that include simulations and analyses of control systems in MATLAB. The project involves plotting Bode diagrams, analyzing step response, and designing controllers for different systems. These simulations and plots help us understand the impact of various controller designs on system performance.
+Assignments:
+Additionally, assignments related to the project are included. You can find them in the Assignments folder, where you can review and complete the tasks as per the project guidelines.
+Research Contents:
+Root locus in time-delay systems
+Routh-Hurwitz method and derivation when a row becomes zero
+Characteristics of system representations in the frequency domain
+How to Use the Project:
+Find the MATLAB files in the folder named matlab_files.
+How to Run:
+Install MATLAB software and open the files in the MATLAB environment.
+To run the simulations and view the results, execute the MATLAB code sequentially.
+The code for each project task is clearly specified.
+Key Points:
+Time delay can significantly impact the stability and performance of control systems.
+In the Routh-Hurwitz method, derivation is necessary when rows become zero to ensure calculation accuracy.
+Representing systems in the frequency domain is highly useful for analyzing system behavior in response to more complex inputs.
+MATLAB projects help simulate and analyze control systems in practical environments.
+Developments and Suggestions:
+In the future, this project can be expanded by adding more analyses of complex systems and designing advanced controllers. Additionally, the simulations could be extended to systems with noise and model uncertainties.
